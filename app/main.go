@@ -25,5 +25,5 @@ func main() {
 		os.Exit(1)
 	}
 
-	conn.Write([]byte{0, 0, 0, 0, 0, 0, 0, 7})
+	conn.Write([]byte{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07})
 }
